@@ -1,11 +1,10 @@
-name: nlp_app
+name: nlp_final
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.10
-  - numpy<2.0.0
-  - scipy
+  - numpy=1.26.4
+  - scipy=1.12.0
   - pandas
   - matplotlib
   - scikit-learn
@@ -14,4 +13,3 @@ dependencies:
   - pip
   - pip:
       - streamlit
-      - google-generativeai
